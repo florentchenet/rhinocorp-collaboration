@@ -1,0 +1,24 @@
+# GitHub CLI (gh) Diagnosis Log
+
+**Date:** 2025-12-04
+**Command:** `gh repo rename`
+**Version:** 2.83.1
+
+## Issue
+Attempts to rename `florentchenet/visual` to `rhinocorp-visualizer` failed with "accepts at most 1 arg(s), received 2".
+
+## Diagnosis
+Ran `gh repo rename --help`.
+
+**Observed Usage:**
+`gh repo rename [<new-name>] [flags]`
+
+**Key Flag:**
+`-R, --repo [HOST/]OWNER/REPO`: Select another repository using the [HOST/]OWNER/REPO format.
+
+## Root Cause
+The command `gh repo rename old new` is invalid. It interprets `old` as `<new-name>` and `new` as an extra argument.
+The correct syntax for renaming a non-current repo is `gh repo rename -R old new`.
+
+## Resolution
+Execute: `gh repo rename -R florentchenet/visual rhinocorp-visualizer`
