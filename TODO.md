@@ -4,8 +4,8 @@
 **Next Session Goal:** Frontend Development & Service Integration
 
 ## 🚨 Immediate Actions
+- [ ] **Deploy Stack:** Server `rhinocorp-vps` is running but empty. Run `projects/infrastructure/skills/deploy_stack.sh` to install the Docker stack.
 - [ ] **Run Visualizer Sync:** Execute `projects/visualizer/utils/setup_gdrive_sync.sh` to link heavy assets to Google Drive.
-- [ ] **Secrets Management:** Ensure `projects/infrastructure/.env` is populated with all keys (Hetzner, DuckDNS).
 
 ## 🏗️ Infrastructure Swarm
 *Repo: [infrastructure-swarm](https://github.com/florentchenet/infrastructure-swarm)*
