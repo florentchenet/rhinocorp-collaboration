@@ -26,3 +26,4 @@
 - [Global Status](.agent/STATUS.md)
 - [Infrastructure Project Status](projects/infrastructure/PROJECT-STATUS.md)
 - [Handoff Guide](projects/infrastructure/docs/HANDOFF_TO_CLAUDE.md)
+- [Session Summary](SESSION_SUMMARY_2025-12-04.md)

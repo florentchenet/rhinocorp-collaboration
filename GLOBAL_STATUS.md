@@ -5,7 +5,7 @@
 
 ## Active Projects
 ### 1. Infrastructure (projects/infrastructure)
-- **Status:** ✅ Skills Complete | 🟡 Frontend Pending
+- **Status:** ✅ Skills Complete (API Enhanced) | 🟡 Frontend Pending
 - **Repo:** [infrastructure-swarm](https://github.com/florentchenet/infrastructure-swarm)
 ### 2. Visualizer (projects/visualizer)
 - **Status:** ✅ Git LFS Configured | 🟡 Development Pending
@@ -20,3 +20,4 @@
 - [x] Define Core Skills (Infrastructure, Stream, Visualizer)
 - [x] Setup Collaboration Hub [rhinocorp-collaboration](https://github.com/florentchenet/rhinocorp-collaboration)
 - [x] Clean & Standardize GitHub Repos
+- [x] Upgrade Unraid Management to API-First
